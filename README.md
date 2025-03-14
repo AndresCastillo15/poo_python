@@ -8,7 +8,7 @@
 - La clase es la definicion del concepto del mundo real y los objetos o instancias  son el propio objeto del mundo real.
 - Las clases estan compuestan por dos elementos: atributos y metodos 
 
-### atributos
+### Atributos
 
 - Los atributos son informacion que almacena la clase.
 
@@ -43,4 +43,12 @@ cuando defines una clase debes tener en cuenta los siguientes puntos:
 - puedes definir tantos atributos como necesites.
 - puedes definir tantos metodos como necesites.
 - puedes tantos parametros con el constructor y en los metodos como necesites.
+
+## Composicion
+
+- Consiste en al creacion de nuevas clases a partir de otras clases ya existentes que actuan como elementos compositores de la nueva.
+- LAs clases existentes seran atributos de la nueva clase.
+-  En POO la composicion significa que entre las 2 clases existe una relacion del tipo "Tiene un".
+- Ejemplo:
+    - una coordenada en 2 direcciones esta compuesta por 2 valores, el valor en el eje de las X y el valor en el eje de las Y, esto podria ser una clase. Un cuadrado esta compuesto por 4 coordenadas que son los 4 vertices, Esto podria ser una clase qeu esta compuesta por 4 clases del objeto coordenada.
 
