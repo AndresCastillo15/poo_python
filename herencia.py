@@ -108,7 +108,7 @@ def main():
     profesor.setNombre("Néstor")
     profesor.setApellidos("Páez Sarmiento")
     profesor.setEdad(25)
-    profesor.setAntiguedad("Bachillerato")
+    profesor.setAntiguedad("15 años")
     profesor.setTutorias(["Miercoles de 6:00a.m hasta 9.20a.m", "Jueves de 2:40 p.m hasta 6:45 p.m", "Viernes de 6:00a.m hasta 10:20 p.m"])
     profesor.setTelefono("555 555 555")
     profesor.mostrarProfesor()
